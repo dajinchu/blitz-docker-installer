@@ -15,7 +15,7 @@ export default new Installer({
     stepId: Steps.addDockerfile,
     stepName: "Add dockerfile",
     explanation: "Add the dockerfile",
-    templatePath: path.join(__dirname, "templates", "Dockerfile"),
+    templatePath: path.join(__dirname, "templates"),
     targetDirectory: ".",
     templateValues: {}
   }
